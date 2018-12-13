@@ -1,4 +1,4 @@
-# lambda-graphql-open_endpoint
+# Lambda GraphQL Open Endpoint
 
 ## Sample Code Structure and Open endpoint available for demo
 
