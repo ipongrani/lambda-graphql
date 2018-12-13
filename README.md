@@ -9,3 +9,42 @@
  - $2a$10$FpTmRu0L/2vUBEV8pqAe/urn0faL4b98kQReNEMivhDPSWNoORrRy
  
  
+### Sample Query
+
+query getPatients ($_authToken: String!){
+  getPatients (_authToken: $_authToken){
+    msg
+    patientRecords {
+     firstName
+     lastName
+     birthDate
+     age
+     status
+     conditions{
+       name
+       status
+     }
+     medicalBio {
+       medicalId
+       bloodType
+       bloodPressure
+       allergies
+       diet
+       pill
+       timePill
+       medicalIssue
+     }
+     reports {
+       datePublished
+       patientReport
+       topic
+     }
+    }
+  }
+}
+
+### variables
+
+{
+  "_authToken": "$2a$10$FpTmRu0L/2vUBEV8pqAe/urn0faL4b98kQReNEMivhDPSWNoORrRy"
+}
