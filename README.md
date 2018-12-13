@@ -1,6 +1,6 @@
 # lambda-graphql-open_endpoint
 
-## Open endpoint available for demo
+## Sample Code Structure and Open endpoint available for demo
 
 ### graphiql can be accessed at
  - https://of9bca1n83.execute-api.us-east-1.amazonaws.com/dev/OpenBlueCare
