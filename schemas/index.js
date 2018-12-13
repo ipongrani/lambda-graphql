@@ -4,8 +4,6 @@ const typeDefs = [`
   }
 
   type Mutation {
-    authUser(_authKey: String!): Confirmation!
-    logoutKey(_authKey: String!): Confirmation!
     submitReport(_authToken: String!, patientFirstName: String!, 
                  patientLastName: String!, patientReport: String!,
                  reportTopic: String!): Confirmation!
